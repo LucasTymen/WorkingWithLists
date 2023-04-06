@@ -17,10 +17,16 @@ inventory_2_6 = inventory[2:6]
 print(inventory_2_6)
 
 # step 5:
+first_3 = inventory[:3]
+print(first_3)
 
 # step 6:
+twin_beds = inventory.count('twin bed')
+print(twin_beds)
 
 # step 7:
+removed_item = inventory.pop(4)
+print(removed_item)
 
 # step 8:
 
